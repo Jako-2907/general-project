@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--fuente-texto);
+    background: var(--fondo-pagina);
+    color: var(--texto-principal);
+}
+
+h1, .titular-h1 {
+    margin: 0;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+h2, .titular-h2 {
+    margin: 0;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+h3, .titular-h3 {
+    margin: 0;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+h4, .titular-h4 {
+    margin: 0;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+a {color: var(--marca-primario);}
+a:hover {color: var(--marca-primario-hover);}
+
+.contenedor{
+    margin-inline: auto;
+    width: calc(100% - 2rem);
+    padding: var(--espacio-1);
+}
