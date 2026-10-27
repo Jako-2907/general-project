@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    /*<>
+    <>
       <Navbar
         {...datos}
         idioma={idioma}
@@ -70,13 +70,6 @@ function App() {
         <p>{ingles? "This example loads navigation abels from the API"
         :"Este elemento carga los textos del menu desde la API" }</p>
       </main>
-    </>*/
-    <>
-      <ContadorClics />
-      <Cronometro />
-      <RecordarPersonaje />
-      <PersonajeApi/>
-      <NavegadorPersonajes/>
     </>
   );
 }
